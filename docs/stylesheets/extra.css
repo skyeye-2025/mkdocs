@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "varelaround";
+    /* 自定义字体名称（后续引用用） */
+    src: url("../fonts/VarelaRound-Regular.ttf") format("truetype");
+    font-family: "weilaiyuan";
+    src: url("../fonts/Regular.ttf") format("truetype");
+}
+
+body,
+input {
+    font-family: "varelaround", "weilaiyuan", Helvetica, Arial, sans-serif;
+}
+
+/* 针对首页隐藏侧边导航 */
+.homepage .md-sidebar {
+    display: none !important;
+}
+
+/* 让首页内容区域充满满屏宽 */
+.homepage .md-content {
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+/* 移除首页的内容区域阴影和背景 */
+.homepage .md-content__inner {
+    box-shadow: none;
+    background-color: transparent;
+}

@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Homepage of Skyeye
 theme:
   name: material
   palette:
@@ -25,7 +25,7 @@ theme:
 
   language: zh
 
-  logo: images/头像.jpg
+  logo: images/logo.png
   # favicon: images/头像.jpg
 
   features:
@@ -48,8 +48,8 @@ theme:
     - content.code.annotate
 
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/skyeye-2025/skyeye-2025.github.io # 右上角点击跳转的链接
-repo_name: skyeye-2025.github.io # 右上角的名字
+repo_url: https://github.com/skyeye-2025/Home # 右上角点击跳转的链接
+repo_name: skyeye-2025/Home # 右上角的名字
 
 plugins:
   - search
@@ -87,6 +87,8 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
+  - toc:
+      permalink: true
 
   - pymdownx.superfences:
       custom_fences:
@@ -94,8 +96,6 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
-  - toc:
-      permalink: true # 固定标题位置为当前位置
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
       linenums: true # 显示行号
@@ -112,3 +112,6 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
