@@ -1,30 +1,13 @@
+@import url("https://fontsapi.zeoseven.com/181/main/result.css");
+
 @font-face {
-    font-family: "varelaround";
-    /* 自定义字体名称（后续引用用） */
-    src: url("../fonts/VarelaRound-Regular.ttf") format("truetype");
-    font-family: "weilaiyuan";
-    src: url("../fonts/Regular.ttf") format("truetype");
+    font-family: "ZSFT-344";
+    src: url("https://fontsapi.zeoseven.com/344/main.woff2") format("woff2"),
+        url("https://fontsapi-storage.zeoseven.com/344/main.woff2") format("woff2");
+    font-display: swap;
 }
 
-body,
-input {
-    font-family: "varelaround", "weilaiyuan", Helvetica, Arial, sans-serif;
-}
-
-/* 针对首页隐藏侧边导航 */
-.homepage .md-sidebar {
-    display: none !important;
-}
-
-/* 让首页内容区域充满满屏宽 */
-.homepage .md-content {
-    max-width: 100% !important;
-    margin: 0;
-    padding: 0 2rem;
-}
-
-/* 移除首页的内容区域阴影和背景 */
-.homepage .md-content__inner {
-    box-shadow: none;
-    background-color: transparent;
+body {
+    font-family: "ZSFT-344", "未来圆SC";
+    font-weight: normal;
 }

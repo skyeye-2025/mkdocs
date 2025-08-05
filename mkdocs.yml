@@ -19,9 +19,7 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 
-  font:
-    text: Varela Round
-    # code: Orbitron
+  font: false
 
   language: zh
 
