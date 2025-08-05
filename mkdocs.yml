@@ -1,23 +1,24 @@
 site_name: Homepage of Skyeye
 theme:
   name: material
+  # custom_dir: overrides
   palette:
+    scheme: skyeye
+# # Light mode
+#   - scheme: default
+#     primary: cyan
+#     accent: cyan
+#     toggle:
+#       icon: material/weather-sunny
+#       name: Switch to dark mode
 
-# Light mode
-  - scheme: default
-    primary: cyan
-    accent: cyan
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to dark mode
-
-  # Dark mode
-  - scheme: slate
-    primary: cyan
-    accent: cyan
-    toggle:
-      icon: material/weather-night
-      name: Switch to light mode
+#   # Dark mode
+#   - scheme: slate
+#     primary: cyan
+#     accent: cyan
+#     toggle:
+#       icon: material/weather-night
+#       name: Switch to light mode
 
   font: false
 
@@ -52,8 +53,10 @@ repo_name: skyeye-2025/Home # 右上角的名字
 plugins:
   - search
   - tags
+  - statistics
 
 extra:
+  generator: false
   social:
     # - icon: fontawesome/brands/weixin
     #   link: https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
@@ -72,7 +75,7 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
   - def_list
   - footnotes
   - md_in_html
-  # - meta # 支持Markdown文件上方自定义标题标签等
+  - meta # 支持Markdown文件上方自定义标题标签等
   - pymdownx.caret
   - pymdownx.betterem
   - pymdownx.critic

@@ -1,6 +1,22 @@
-## 欢迎来到天眼的主页
+---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+  - statistics
+  - footer
+---
+
+# 
+
+<span class="special-text1">Welcome to</span> 
+<br>
+<span class="special-text2">skyeye's</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1">Homepage</span>
+
+<br>
+
+### About
 
 本网页初次成功部署于2025年8月4日，是我出于兴趣创建的网页，用以存放我的一些文字。
 
-本人大学本科在读，喜欢计算机技术，数学，经济学，哲学和设计，是Brony，车万和舟批。
-
+本人大学本科在读，喜欢计算机技术，数学，经济学，哲学和设计，是Brony，车万，柚子厨和舟批。
