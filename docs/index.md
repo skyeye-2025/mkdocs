@@ -8,10 +8,10 @@ hide:
 
 # 
 
-<span class="special-text1">Welcome to</span> 
+<span class="special-text1">WELCOME TO</span> 
 <br>
-<span class="special-text2">skyeye's</span>
-&nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1">Homepage</span>
+<span class="special-text2">SYEYE'S</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1">HOMEPAGE</span>
 
 <br>
 

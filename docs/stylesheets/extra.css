@@ -1,5 +1,7 @@
 @import url("https://fontsapi.zeoseven.com/181/main/result.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @font-face {
     font-family: "ZSFT-344";
     src: url("https://fontsapi.zeoseven.com/344/main.woff2") format("woff2"),
@@ -62,11 +64,13 @@ body {
 
 .special-text1 {
     font-size: 80px;
-    font-family: "Novecento";
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
 }
 
 .special-text2 {
     color: rgb(14, 202, 240);
     font-size: 80px;
-    font-family: "Novecento";
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
 }
