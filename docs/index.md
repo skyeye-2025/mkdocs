@@ -10,7 +10,7 @@ hide:
 
 <span class="special-text1" id="typewriter-line-1">WELCOME TO</span> 
 <br>
-<span class="special-text2" id="typewriter-line-2">SYEYE'S</span>
+<span class="special-text2" id="typewriter-line-2">SKYEYE'S</span>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1" id="typewriter-line-3">HOMEPAGE</span>
 
 <br>
