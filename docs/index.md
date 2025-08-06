@@ -8,10 +8,10 @@ hide:
 
 # 
 
-<span class="special-text1">WELCOME TO</span> 
+<span class="special-text1" id="typewriter-line-1">WELCOME TO</span> 
 <br>
-<span class="special-text2">SYEYE'S</span>
-&nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1">HOMEPAGE</span>
+<span class="special-text2" id="typewriter-line-2">SYEYE'S</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="special-text1" id="typewriter-line-3">HOMEPAGE</span>
 
 <br>
 
