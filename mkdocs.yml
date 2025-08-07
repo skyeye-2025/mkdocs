@@ -1,9 +1,11 @@
-site_name: Homepage of Skyeye
+site_name: Homepage of Skyeye # 显示在左上角
 theme:
-  name: material
+  name: material # 主题
   # custom_dir: overrides
   palette:
-    scheme: skyeye
+    scheme: skyeye # 用的是extra.css里定义的skyeye scheme
+
+# 本来可以做一个颜色切换但是我懒得搞了
 # # Light mode
 #   - scheme: default
 #     primary: cyan
@@ -20,11 +22,11 @@ theme:
 #       icon: material/weather-night
 #       name: Switch to light mode
 
-  font: false
+  font: false # 要求按照extra.css里的来，不要搞默认的字体
 
-  language: zh
+  language: zh # 中文网站
 
-  logo: images/logo.png
+  logo: images/logo.png # 左上角图标显示的
   # favicon: images/头像.jpg
 
   features:
@@ -51,12 +53,13 @@ repo_url: https://github.com/skyeye-2025/Home # 右上角点击跳转的链接
 repo_name: skyeye-2025/Home # 右上角的名字
 
 plugins:
-  - search
+  - search # 搜索框
   - tags
-  - statistics
+  - statistics # 统计字数的，这个要在ci.yml里加一段pip install的命令
 
 extra:
-  generator: false
+  generator: false # 不显示made with mkdocs
+  # 个人链接，最下面显示的
   social:
     # - icon: fontawesome/brands/weixin
     #   link: https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
@@ -69,7 +72,7 @@ extra:
       link: https://space.bilibili.com/441014286
       
 markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
-  - abbr
+  - abbr # 显示缩写，但是不太好用
   - attr_list
   - admonition
   - def_list
@@ -86,9 +89,9 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.tilde
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # 支持latex
       generic: true
-  - toc:
+  - toc: # 显示侧边导航，即本文目录
       permalink: true
 
   - pymdownx.superfences:
@@ -112,6 +115,8 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
 extra_javascript:
   - javascripts/config.js
   - javascripts/typewriter.js
+  - javascripts/baidutongji.js
+  - "//api.busuanzi.cc/static/3.6.9/busuanzi.min.js"
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 

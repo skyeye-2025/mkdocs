@@ -1,3 +1,5 @@
+/* 导入字体文件，都是网上的fontsAPI */
+
 @import url("https://fontsapi.zeoseven.com/181/main/result.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
@@ -9,17 +11,20 @@
     font-display: swap;
 }
 
-@font-face {
+/* 试验过把字体otf/ttf文件导入库中，但加载很慢，弃用 */
+
+/* @font-face {
     font-family: "novecento";
     src: url("../fonts/Novecento\Novecento WideNormal.otf") format("opentype");
     font-display: swap;
-    /* 加载时先用系统字体替代，避免空白 */
-}
+} */
 
 body {
     font-family: "ZSFT-344", "未来圆SC";
     font-weight: normal;
 }
+
+/* 下面这一堆就是修改显示的颜色了，bg是background，fg是文本的，typeset好像也是文本的 */
 
 [data-md-color-scheme=skyeye] {
     --md-primary-fg-color: rgb(14, 202, 240);
@@ -61,6 +66,8 @@ body {
     --md-shadow-z3: 0 0.2rem 0.5rem #0006, 0 0 0.05rem #00000059;
     color-scheme: dark
 }
+
+/* 下面这两个是首页大标题的字体特殊显示 */
 
 .special-text1 {
     font-size: 80px;
