@@ -26,7 +26,7 @@ theme:
 
   language: zh # 中文网站
 
-  logo: images/logo.png # 左上角图标显示的
+  logo: images/logo.webp # 左上角图标显示的
   # favicon: images/头像.jpg
 
   features:
