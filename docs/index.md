@@ -21,6 +21,8 @@ hide:
 
 本人大学本科在读，喜欢计算机技术，数学，经济学，哲学和设计，是Brony，车万，柚子厨和舟批。
 
+本站总访客数 <span id="busuanzi_site_uv">加载中...</span> 人
+
 <!-- 本站总访问量 <span id="busuanzi_site_pv">加载中...</span> 次
 本站总访客数 <span id="busuanzi_site_uv">加载中...</span> 人
 本页总阅读量 <span id="busuanzi_page_pv">加载中...</span> 次
