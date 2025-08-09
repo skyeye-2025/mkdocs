@@ -8,16 +8,12 @@ theme:
 # 本来可以做一个颜色切换但是我懒得搞了
 # # Light mode
 #   - scheme: default
-#     primary: cyan
-#     accent: cyan
 #     toggle:
 #       icon: material/weather-sunny
 #       name: Switch to dark mode
 
 #   # Dark mode
 #   - scheme: slate
-#     primary: cyan
-#     accent: cyan
 #     toggle:
 #       icon: material/weather-night
 #       name: Switch to light mode
@@ -113,9 +109,7 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
       custom_checkbox: true
 
 extra_javascript:
-  - javascripts/config.js
   - javascripts/typewriter.js
-  - javascripts/baidutongji.js
   - "//api.busuanzi.cc/static/3.6.9/busuanzi.min.js"
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
